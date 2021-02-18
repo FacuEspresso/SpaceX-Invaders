@@ -13,11 +13,11 @@ bg_y_position = 0
 score = 0
 
 #import images
-BG = pygame.image.load("python/space_invaders/game_data/bg.png")
-STARSHIP_IMAGE = pygame.image.load("python/space_invaders/game_data/starship_base.png")
-BLUE_ORIGIN_IMAGE = pygame.image.load("python/space_invaders/game_data/blueorigin_base.png")
-BLUE_LASER = pygame.image.load("python/space_invaders/game_data/blue_laser.png")
-RED_LASER = pygame.image.load("python/space_invaders/game_data/red_laser.png")
+BG = pygame.image.load("SpaceX-Invaders/game_data/bg.png")
+STARSHIP_IMAGE = pygame.image.load("SpaceX-Invaders /game_data/starship_base.png")
+BLUE_ORIGIN_IMAGE = pygame.image.load("SpaceX-Invaders /game_data/blueorigin_base.png")
+BLUE_LASER = pygame.image.load("SpaceX-Invaders/game_data/blue_laser.png")
+RED_LASER = pygame.image.load("SpaceX-Invaders/game_data/red_laser.png")
 
 #scale images
 STARSHIP_IMAGE = pygame.transform.scale2x(STARSHIP_IMAGE)
@@ -28,13 +28,13 @@ RED_LASER = pygame.transform.scale2x(RED_LASER)
 RED_LASER = pygame.transform.rotate(RED_LASER,180)
 
 #sound
-BLUE_LASER_SOUND = pygame.mixer.Sound("python/space_invaders/game_data/blue_laser_audio.wav")
+BLUE_LASER_SOUND = pygame.mixer.Sound("SpaceX-Invaders/game_data/blue_laser_audio.wav")
 BLUE_LASER_SOUND.set_volume(0.5)
 
-RED_LASER_SOUND = pygame.mixer.Sound("python/space_invaders/game_data/red_laser_audio.wav")
+RED_LASER_SOUND = pygame.mixer.Sound("SpaceX-Invaders/game_data/red_laser_audio.wav")
 RED_LASER_SOUND.set_volume(0.5)
 
-BLUE_ORIGIN_DESTROY_SOUND = pygame.mixer.Sound("python/space_invaders/game_data/blue_origin_destroy_audio.wav")
+BLUE_ORIGIN_DESTROY_SOUND = pygame.mixer.Sound("SpaceX-Invaders/game_data/blue_origin_destroy_audio.wav")
 BLUE_ORIGIN_DESTROY_SOUND.set_volume(0.5)
 
 #create class for the ships 
