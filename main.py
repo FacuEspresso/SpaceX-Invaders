@@ -13,11 +13,11 @@ bg_y_position = 0
 score = 0
 
 #import images
-BG = pygame.image.load("SpaceX-Invaders/game_data/bg.png")
-STARSHIP_IMAGE = pygame.image.load("SpaceX-Invaders /game_data/starship_base.png")
-BLUE_ORIGIN_IMAGE = pygame.image.load("SpaceX-Invaders /game_data/blueorigin_base.png")
-BLUE_LASER = pygame.image.load("SpaceX-Invaders/game_data/blue_laser.png")
-RED_LASER = pygame.image.load("SpaceX-Invaders/game_data/red_laser.png")
+BG = pygame.image.load("./game_data/bg.png")
+STARSHIP_IMAGE = pygame.image.load("./game_data/starship_base.png")
+BLUE_ORIGIN_IMAGE = pygame.image.load("./game_data/blueorigin_base.png")
+BLUE_LASER = pygame.image.load("./game_data/blue_laser.png")
+RED_LASER = pygame.image.load("./game_data/red_laser.png")
 
 #scale images
 STARSHIP_IMAGE = pygame.transform.scale2x(STARSHIP_IMAGE)
