@@ -274,8 +274,7 @@ def main():
         player_ship.enemy_collision(enemies)
 
     pygame.quit()
-
-#make sure the game only opens through the main file
+    
 
 if __name__ == "__main__": 
     main()
